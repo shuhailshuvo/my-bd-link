@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# My BD Link
 
-You can use the [editor on GitHub](https://github.com/shuhailshuvo/my-bd-link/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Static Website with react
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- Static Web
+- Remote Configuration
+- Custom domain with github pages
 
-### Markdown
+# Purpose!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Creating static website with Paper Kit React
+- Use JSONbin to store data.
+- Using github pages to host it.
 
-```markdown
-Syntax highlighted code block
+### Tech
 
-# Header 1
-## Header 2
-### Header 3
+This project is build using
 
-- Bulleted
-- List
+- React JS
+- Paper Kit
+- JSONbin
+- Github Pages
 
-1. Numbered
-2. List
+### Installation
 
-**Bold** and _Italic_ and `Code` text
+Install the dependencies and start the server.
 
-[Link](url) and ![Image](src)
+```sh
+$ npm install
+$ node start
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For production environments...
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shuhailshuvo/my-bd-link/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```sh
+$ npm install
+$ npm run build
+```
